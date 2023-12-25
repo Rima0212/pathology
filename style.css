@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    font:1em sans-serif;
+}
+html,body{
+    background-color: rgb(236, 235, 240);
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+/*---------------navbar design--------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+header{
+    position: absolute;
+    top: 0;
+    padding-top: 0;
+    left: 0;
+    left: 0;
+    right: 0;
+    transition: 0.4s;
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+}
+.header{
+    position: sticky;
+    height: 77px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: space-between;
+    background: rgb(255, 255, 255);
+    padding: 2px 0;
+    transition: 0.4s;
+}/*
+header.sticky{
+    padding: 5px 10px;
+}
+.top-header-area{
+    width: 100%;
+    height: 7vh;
+}*/
+
+.top-header-area{
+    
+    
+    background-color: white;
+    width: 100%;
+   
+}
+.header nav{
+    height: 10vh;
+    width: 100%;
+    position: relative;
+    background-color: rgb(209, 200, 176);
+}
+.navbar-brand h2{
+    font-size: 1.8rem;
+    position: relative;
+    font-weight: 600;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 4%;
+    padding-left: 15%;
+    margin-top: -10%;
+
+}
+.navbar-brand img{
+    height: 7vh;
+    width: 16%;
+    margin-top: -2%;
+}
+.header li .nav-link{
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 1px 6px;
+    gap: 10%;
+    -webkit-transition: all .4s ease-out 0s;
+    -o-transition:  all .4s ease-out 0s;
+    -moz-transition:  all .4s ease-out 0s;
+    transition:  all .4s ease-out 0s;
+}
+.nav-link:hover,
+.nav-link:focus
+{
+    color: rgb(1, 255, 43) !important;
+    
+    text-decoration: underline;
+}
+.header .navbar-toggler{
+    border: 0;
+    box-shadow: none;
+    display: inline-block;
+}
+
+.navbar-toggler-icon{
+    color: #da8c8c;
+}
+
+/*.header{
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    width: 100%;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}*
+.header .nav-item{
+    padding: 0 0.625rem;
+    transition: all 200ms linear;
+}
+
+/*.top-banner img{
+    margin-left: 53%;
+    margin-top: 8%;
+}*/
+
+/*--------------------------------home section-----------------------------------------------------------------*/
+#home {
+    width: 100%;
+    height: 73vh;
+    top: 4vh;
+    background-color:antiquewhite;
+}
+/*.top-banner{
+    position: relative;
+    width: 100%;
+    margin-top: 5%;
+    height: 67vh;
+}
+#home .top-banner{
+    position: relative;
+    
+}*/
+#home .top-banner img{
+    height: 65vh;
+    margin-left: 10%;
+    max-width: 100%;
+    margin-top: 15%;
+   
+   
+  
+}/*
+.top-banner{
+    width: 100%;
+    height: 80vh;
+   background-size: cover;
+   background-position: 70% center;
+   
+    background: url(Medical-Professional-3.png) no-repeat right;
+}
+*/
+
+#home .top-banner h2{
+    color: black;
+    position: relative;
+    left: 2%;
+    
+    font-size: 2.3rem;
+   margin-top: 43%;
+    font-weight: 700;
+}
+#home .top-banner p{
+    color: black;
+    position: relative;
+    
+    font-weight: 600;
+    font-size: 1.44rem;
+    
+    left: 2%;
+}
+
+/*----------------------------------------facility----------------------------------------------------------*/
+#specificaton{
+    position: relative;
+  
+}
+#specification .container{
+    width: 100%;
+    height: 26vh;
+    position: relative;
+}
+.facility{
+    width: 100%;
+    height: 10vh;
+    position: relative;
+}
+.facility h2{
+    color: white;
+   position: relative;
+    font-weight: 500;
+    align-items: center;
+    text-align: center;
+    
+}
+.facility button{
+    position: relative;
+    left: 43%;
+    color: white;
+    margin-top: 2%;
+    border-color: black;
+    font-size: 1.5rem;
+    
+   
+}
+
+button .contact{
+    text-decoration: none;
+    color: black;
+    
+}
+.contact:hover{
+    color: green;
+}
+
+
+
+
+
+
+
+/*-------------------------------------------contact us-----------------------------------------------------*/
+
+
+#contact h2{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2.5rem;
+}
+#contact img{
+    height: 30vh;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+#contact .container-fluid {
+    width: 100%;
+    height: 20vh;
+}
+#contact .container-fluid h3{
+    padding-left: 30px;
+    padding-top: 10%;
+}
+#contact .container-fluid h4{
+    font-size: 2rem;
+    text-align: center;
+}
+#contact span{
+    font-size: 23px;
+    font-weight: 500;
+}
+#contact p{
+    font-size: 18px;
+    padding-top: 20px;
+}
+#contact iframe{
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+
+/*--------------------------------price------------------------------------------------------------------------*/
+
+
+.pricing-header button a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+button .view{
+    text-decoration: none;
+    color: black;
+}
+.pricing-header button .rima{
+    border-color: #000;
+    color:green;
+    position: relative;
+}
+.view:hover{
+    color:black;
+}
+
+
+
+/*------------------------------------------------------booking form-------------------------------------------*/
+
+
+.pre-book{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.pre-book .container{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: darkblue;
+}
+form{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 40%;
+    padding: 2vw 4vw;
+    height:70%;
+    max-width: 600px;
+}
+form h3{
+    font-weight: 700;
+    color: #555;
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 2.1rem;
+}
+form input, select{
+    padding: 15px;
+    border: 0;
+    margin: 10px 0;
+    outline: none;
+    background: #d1c8c8;
+    font-size: 1rem;
+}
+form button{
+    font-size: 1.5rem;
+    background: #ff5361;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    height: 30px;
+    margin-top:20px ;
+    border-radius: 10px;
+
+}
+form select option{
+    background-color: #fff;
+}
