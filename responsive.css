@@ -1,3 +1,16 @@
+
+@media (max-width:1200px) {
+    #contact iframe{
+        padding-right: 80px;
+    }
+}
+
+@media (max-width:1000px) {
+    #contact iframe{
+        padding-right: 100px;
+    }    
+}
+
 @media (max-width:991px) {
     #navbarSupportedContent{
         background-color: rgb(209, 200, 176);
@@ -47,6 +60,9 @@
         height: 6vh;
         width: 15%;
     }
+    #contact iframe{
+        padding-right: 120px;
+    }
 }
    /* #home{
         width: 100%;
@@ -81,6 +97,12 @@
         margin-top: 55%;
         
     }
+    #contact iframe{
+        padding-right: 120px;
+    }
+    #contact img{
+       width: 30vw;
+    }
     
 }
 
@@ -95,6 +117,9 @@
     .navbar-brand img{
         position: relative;
         
+    }
+    #contact iframe{
+        padding-right: 120px;
     }
     
 
@@ -121,6 +146,17 @@
         left: 15%;
        
     }
+    #contact iframe{
+        padding-right: 120px;
+    }
+    #contact img{
+        width: 80vw;
+        margin-top: -8%;
+    }
+    #contact h3{
+      margin-top: -6%;
+      font-size: 1.8rem;
+    }
 }
     /*#home .top-banner img{
         width: 100%;
@@ -131,6 +167,9 @@
 @media (max-width:480px) {
     .navbar-brand h2{
         font-size: 1.2rem;
+    }
+    #contact iframe{
+        padding-right: 130px;
     }
 }
 
@@ -147,8 +186,19 @@
         width: 12%;
         
     }
+    #home {
+        height: 60vh;
+    }
+    #home .top-banner img{
+        width: 60vw;
+    }
+    .facility button{
+        position: relative;
+        left: 34%;
+    }
+    
     #contact iframe{
-        padding-right: 60px;
+        padding-right: 130px;
     }
 }
    /* #home{
