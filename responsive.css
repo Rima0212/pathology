@@ -1,31 +1,34 @@
 
 @media (max-width:1200px) {
-    #contact iframe{
-        padding-right: 80px;
-    }
+   
     #home .top-banner img{
         height: 60vh;
-        margin-top: 70%;
+        margin-top: 30%;
     } 
+    #home .top-banner h2{
+        font-size: 2.1rem;
+        margin-top: 60%;
+    }
 }
 
 @media (max-width:1000px) {
-    #contact iframe{
-        padding-right: 100px;
-    }  
+    
     #home .top-banner img{
         height: 60vh;
-        margin-top: 50%;
+        margin-top: 30%;
     }  
 }
 
 @media (max-width:991px) {
     #navbarSupportedContent{
         background-color: rgb(209, 200, 176);
-        height: 36vh;
+        height: 40vh;
         align-items: center;
         
         justify-content: center;
+    }
+    #navbarSupportedContent:hover{
+        color: greenyellow;
     }
     .header li .nav-link{
         font-size: 1.5rem;
@@ -68,23 +71,19 @@
         height: 6vh;
         width: 15%;
     }
-    #contact iframe{
-        padding-right: 120px;
+    .appointment .content{
+        padding: 2rem 3rem;
+        margin-right: 50%;
     }
-}
-   /* #home{
-        width: 100%;
-        height: 71vh;
+    .appointment .content h3{
+        margin-right: 20%;
     }
-    
-    
-    
-    
-    
-    
+    .link-btn{
+        padding: .4rem .8rem;
+    }
+   
 }
-
-*/
+   
 
 
 @media (max-width:767px) {
@@ -97,7 +96,7 @@
     #home .top-banner p{
         font-size: 1rem;
         position: relative;
-        left: -6%;
+        left: -1%;
     }
     .collapse button{
         text-align: center;
@@ -115,12 +114,23 @@
         position: relative;
         margin-left: -35%;
      }
-    #contact iframe{
-        padding-right: 120px;
-    }
+    
     #contact img{
        width: 30vw;
     }
+    .appointment .content{
+        padding: 4rem 1.1rem;
+        position: relative;
+        left: -10%;
+       
+    }
+    .appointment .content h3{
+        margin-right: 20%;
+    }
+    .link-btn{
+        padding: .4rem .8rem;
+    }
+   
     
 }
 
@@ -142,14 +152,21 @@
         left: 41%;
         font-size: 1.5rem;
     }
-    #contact iframe{
-        padding-right: 120px;
-    }
+    
     #gallery .container img{
         position: relative;
         margin-left: 1%;
      }
+     .appointment .content{
+        padding: 5rem 1rem;
+        position: relative;
+        left: 4%;
+   
+    }
     
+    .link-btn{
+        padding: .3rem .7rem;
+    }
 
 }
 
@@ -166,6 +183,7 @@
         font-size:1.8rem;
         position: relative;
         left: 15%;
+        margin-top: 120%;
         
     }
     .collapse button{
@@ -180,9 +198,7 @@
         left: 15%;
        
     }
-    #contact iframe{
-        padding-right: 120px;
-    }
+   
     #contact img{
         width: 80vw;
         margin-top: -8%;
@@ -200,14 +216,23 @@
         position: relative;
         margin-left: 25%;
      }
+     .appointment .content{
+        padding: 5rem 0.2rem;
+       position: relative;
+       left: 5%;
+    }
+    .appointment .content h3{
+        margin-right: 22%;
+    }
+    .link-btn{
+        padding: .4rem .8rem;
+    }
 }
 @media (max-width:480px) {
     .navbar-brand h2{
         font-size: 1.2rem;
     }
-    #contact iframe{
-        padding-right: 130px;
-    }
+   
     .collapse button{
         text-align: center;
         position: relative;
@@ -240,7 +265,7 @@
         margin-left: 13%;
      }
     #home {
-        height: 60vh;
+        height: 70vh;
     }
     #home .top-banner img{
         width: 60vw;
@@ -249,10 +274,16 @@
         position: relative;
         left: 34%;
     }
-    
-    #contact iframe{
-        padding-right: 130px;
+    #home .top-banner h2{
+        position: relative;
+        margin-top: 120%;
+        font-size: 1.5rem;
     }
+    #home .top-banner p{
+        position: relative;
+        font-size: .8rem;
+    }
+    
 }
    /* #home{
         width: 100%;
@@ -312,7 +343,7 @@
         position: relative;
         left: 15%;
         font-weight: 900;
-        margin-top: 113%;
+        margin-top: 133%;
     }
     #home .top-banner p{
         font-size: 0.8rem;
@@ -322,11 +353,11 @@
     }
     #home{
         width: 100%;
-        height: 55vh;
+        height: 65vh;
     }
     #home .top-banner img{
         height: 45vh;
-        margin-top: 75%;
+        margin-top: 88%;
     }
     form{
         width: 120%;
@@ -349,8 +380,8 @@
 }
 @media (max-width:355px) {
     #home .top-banner img{
-        height: 40vh;
-        margin-top: 150%;
+        height: 50vh;
+        margin-top: 100%;
     }
 }
 @media (max-width:255px) {
@@ -407,11 +438,37 @@
         height: 16vh;
     }
 }
-@media (max-height:900px) {
+@media (max-height:1000px) {
     #all-test{
         width: 100%;
         height: 280vh;
         
         background-color:antiquewhite;
     }
+    
 }
+@media (max-height:900px) {
+    #all-test{
+        width: 100%;
+        height: 300vh;
+        
+        background-color:antiquewhite;
+    }
+}
+@media (max-height:800px){
+    #all-test{
+        width: 100%;
+        height: 340vh;
+        background-color:antiquewhite;
+    }
+}
+@media (max-height:600px){
+    #home .top-banner h2{
+        position: relative;
+        
+    }
+    #home .top-banner img{
+        margin-top: 20%;
+    }
+}
+
