@@ -1,4 +1,4 @@
-function sendEmail(){
+/*function sendEmail(){
     Email.send({
         Host: "smtp.gmail.com",
         Username: "rimapyne596@gmail.com",
@@ -10,4 +10,4 @@ function sendEmail(){
     }).then(
         message => alert(message)
     )
-}
+}*/
