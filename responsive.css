@@ -462,13 +462,14 @@
         background-color:antiquewhite;
     }
     #home .top-banner img{
-        margin-top: 20%;
+        margin-top: 80%;
+        height: 50vh;
     }
     #home .top-banner h2{
-        margin-top: 40%;
+        margin-top: 130%;
     }
     #home{
-        height: 70vh;
+        height: 65vh;
     }
 }
 @media (max-height:700px){
