@@ -3,7 +3,7 @@
    
     #home .top-banner img{
         height: 60vh;
-        margin-top: 30%;
+        margin-top: 40%;
     } 
     #home .top-banner h2{
         font-size: 2.1rem;
@@ -48,7 +48,7 @@
     #home .top-banner img{
         height: 63vh;
         width: 55vw;
-        margin-top: 35%;
+        margin-top: 45%;
         margin-left: 20%;
     }
     #home .top-banner h2{
@@ -90,7 +90,7 @@
     #home .top-banner h2{
         font-size: 2rem;
         position: relative;
-        margin-top: 103%;
+        margin-top: 108%;
         left: -1%;
     }
     #home .top-banner p{
@@ -107,7 +107,7 @@
     #home .top-banner img{
         height: 60vh;
         width: 90vw;
-        margin-top: 80%;
+        margin-top: 75%;
         
     }
     #gallery .container img{
@@ -462,11 +462,11 @@
         background-color:antiquewhite;
     }
     #home .top-banner img{
-        margin-top: 80%;
-        height: 50vh;
+        margin-top: 41%;
+        height: 60vh;
     }
     #home .top-banner h2{
-        margin-top: 130%;
+        margin-top: 80%;
     }
     #home{
         height: 65vh;
